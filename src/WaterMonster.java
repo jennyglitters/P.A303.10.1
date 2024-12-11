@@ -1,4 +1,10 @@
-package PACKAGE_NAME;
+public class WaterMonster extends Monster {
+    public WaterMonster(String name) {
+        super(name);
+    }
 
-public class WaterMonster {
+    @Override
+    public String attack() {
+        return "Attack with water!";
+    }
 }

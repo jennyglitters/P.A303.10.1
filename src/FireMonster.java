@@ -1,4 +1,10 @@
-package PACKAGE_NAME;
+public class FireMonster extends Monster {
+    public FireMonster(String name) {
+        super(name);  // Call the superclass constructor
+    }
 
-public class FireMonster {
+    @Override
+    public String attack() {
+        return "Attack with fire!";
+    }
 }
